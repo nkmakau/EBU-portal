@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
     <!-- SITE TITLE -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ESD Analyst Assessment</title>
+    <title>Deployment Partner Assessment</title>
 
     <script src="../../../plugins/jquery/dist/jquery.min.js"></script>
 
@@ -56,7 +55,7 @@
 </head>
 
 <body class="body-wrapper">
-
+    
     <header class="navbar navbar-expand-md navbar-default sticky-top" data-spy="affix" data-offset-top="400">
         <div class="container" style="max-width: 1440px;">
             <div class="row">
@@ -69,7 +68,7 @@
                     </button>
 
                     <a class="navbar-brand pull-right" href="">
-                        <img src="../../../images/EBU_logo.png" alt="EBU Logo">
+                        <img src="../../../images/EBU_logo.png" alt="">
                     </a>
 
                 </nav>
@@ -84,7 +83,7 @@
             <div class="row">
                 <div class="col-md-8 offset-md-2 text-center">
                     <!-- Title text -->
-                    <h3>ESD Analyst Assessment</h3>
+                    <h3>Deployment Partner Assessment</h3>
                 </div>
             </div>
         </div>
@@ -94,6 +93,7 @@
     <section class="blog single-blog section">
         <div class="container" style="max-width: 1350px;">
             <div class="row">
+
                 <div class="col-md-10 offset-md-1 col-lg-3 offset-lg-0">
                     <div class="sidebar">
                         <!-- Category Widget -->
@@ -102,17 +102,17 @@
                             <h4 class="widget-header">Navigation Menu</h4>
                             <ul class="category-list">
                                 <!--<li><a href="./">About </a></li> -->
-                                <li><a href="../lepamassessment/lepamassessment.asp">LE & P Acc. Manager Assessment</a>
-                                </li>
+                                <li><a href="../lepamassessment/lepamassessment.asp">LE &amp; P Acc. Manager
+                                        Assessment</a></li>
                                 <li><a href="../esdassessments/eoesdassessment.asp">ESD Analyst Assessment</a></li>
                                 <li><a href="../DeploymentPartnersAssessments/dpassessment.asp">Deployment Partner
                                         Assessment </a></li>
                                 <li><a href="../deploymentpmassessments/dpmassessment.asp">Deployment Project Manager
                                         Assessment </a></li>
-                                <li><a href="../InlifeQAssessments/inlifeqAssessment.asp">LE&P Inlife Quality Assessment
-                                    </a></li>
-                                <li><a href="../InlifesAssessments/inlifesAssessment.asp">LE&P Inlife Survey Assessment
-                                    </a></li>
+                                <li><a href="../InlifeQAssessments/inlifeqAssessment.asp">LE&amp;P Inlife Quality
+                                        Assessment </a></li>
+                                <li><a href="../InlifesAssessments/inlifesAssessment.asp">LE&amp;P Inlife Survey
+                                        Assessment </a></li>
                                 <li><a href="../ESSAssessments/essAssessment.asp">Enterprise Platinum Support Survey
                                         Assessment </a></li>
                                 <li><a href="../ETQualityAssessments/etqAssessment.asp">Enterprise Technical Quality
@@ -144,23 +144,19 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-0">
                     <!-- Edit Personal Info -->
                     <!--div class="widgetRCSC personal-info"-->
 
                     <ul class="topmenu">
 
-                        <li class="menuitem active"><a href="eoesdassessment.asp">Home</a></li>
-
-                        <li class="menuitem"><a href="editor.asp">Editions</a></li>
-                        <li class="menuitem"><a href="QAIndividualReport.asp">Individual Report</a></li>
-                        <li class="menuitem"><a href="MonthlyReport.asp">Monthly Report</a></li>
+                        <li class="menuitem active"><a href="dpAssessment.asp">Home</a></li>
 
                         <!--li class="menuitem"><a href="ShopReport.asp">Individual Shop Report</a></li-->
                         <!--li class="menuitem"><a href="RegionalReport.asp">Regional Report</a></li-->
 
                     </ul>
-
                     <form action="#" method="POST">
                         <!-- EBU -->
                         <div class="form-group row">
@@ -169,31 +165,32 @@
 
                                 <label for="first-name">Month</label>
                                 <input type="text" class="form-control" id="month" name="month" value="December"
-                                    style="height: 55%;" required readonly />
+                                    style="height: 55%;" required="" readonly="">
                             </div>
 
                             <div class="col-lg-3">
                                 <label for="first-name">Year</label>
                                 <input type="text" class="form-control" id="year" name="year" value="2020"
-                                    style="height: 55%;" required readonly />
+                                    style="height: 55%;" required="" readonly="">
                             </div>
 
                             <!--<div class="col-lg-3" >
 								<label for="first-name">Date of Assessment</label>
-								s
+								
 							</div>-->
 
                             <div class="col-lg-3">
-                                <label for="first-name">Date of SR</label>
-                                <input type="date" class="form-control" id="SRDate" name="SRDate" style="height: 55%;"
-                                    required />
+                                <label for="first-name">Date of Call</label>
+                                <input type="date" class="form-control" id="CallDate" name="CallDate"
+                                    style="height: 55%;" required="">
                                 <input type="hidden" class="form-control" id="AssessmentDate" name="AssessmentDate"
-                                    value="10/28/2020 7:41:59 AM" style="height: 55%;" required readonly />
+                                    value="12/2/2020 12:47:50 PM" style="height: 55%;" required="" readonly="">
                             </div>
 
                             <div class="col-lg-3">
-                                <label for="first-name">SR Number</label><input type="text" class="form-control"
-                                    id="SRNo" name="SRNo" style="height: 55%;" required />
+                                <label for="first-name">Customer msisdn</label>
+                                <input type="number" class="form-control" id="CustomerNo" name="CustomerNo"
+                                    style="height: 55%;" required="">
                             </div>
 
                         </div>
@@ -201,69 +198,57 @@
                         <div class="form-group row">
 
                             <div class="col-lg-3">
-                                <label for="first-name">ESD Analyst</label>
-                                <select type="text" class="form-control" id="EmployeeName" name="EmployeeName"
-                                    onChange="getSegments(this.value)" required>
-                                    <option value="">Select ESD Analyst</option>
+                                <label for="first-name">Customer Name</label>
+                                <input type="text" class="form-control" id="customername" name="customername"
+                                    style="height:55%;" required="">
+                            </div>
 
-                                    <option value="Antoninah Njoroge">Antoninah Njoroge</option>
-                                    <option value="Benadette Jepkorir Kiplagat">Benadette Jepkorir Kiplagat</option>
-                                    <option value="Benard N Wachira">Benard N Wachira</option>
-                                    <option value="Brian Buziba">Brian Buziba</option>
-                                    <option value="Charles kinuthia kagia">Charles Kinuthia Kagia</option>
-                                    <option value="Collins Chesang">Collins Chesang</option>
-                                    <option value="Daniel karanja Waigwa">Daniel Karanja Waigwa</option>
-                                    <option value="David Mutende">David Mutende</option>
-                                    <option value="Diana Kemunto Akara">Diana Kemunto Akara</option>
-                                    <option value="Elizabeth Muthoni Mutuma">Elizabeth Muthoni Mutuma</option>
-                                    <option value="Geoffrey Kiplangat Korir">Geoffrey Kiplangat korir</option>
-                                    <option value="Gichana Bosire">Gichana Bosire</option>
-                                    <option value="Gloria Adhiambo">Gloria Adhiambo</option>
-                                    <option value="Jecinta Okello Awino">Jecinta Okello Awino</option>
-                                    <option value="Jones Nyauma Nyakoe">Jones Nyauma Nyauma</option>
-                                    <option value="Leban Chumba">Leban Chumba</option>
-                                    <option value="Melisa N. Mutangili">Melisa N. Mutangili</option>
-                                    <option value="Oliver Ndiwa">Oliver Ndiwa</option>
-                                    <option value="Phylis Mureithi">Phylis Mureithi</option>
-                                    <option value="Purity Kerubo Nyaigoti">Purity Kerubo Nyaigoti</option>
-                                    <option value="Rayana Anyango Odhiambo">Rayana Anyango Odhiambo</option>
-                                    <option value="Roseline Kogi">Roseline Kogi</option>
-                                    <option value="Salome Wangui Murigu">Salome Wangui Murigu</option>
-                                    <option value="Weldon Koech">Weldon koech</option>
-                                    <option value="Winnie Akinyi Osii">Winnie Akinyi Osii</option>
+                            <div class="col-lg-3">
+                                <label for="first-name">Circuit ID</label>
+                                <input type="text" class="form-control" id="CircuitID" name="CircuitID"
+                                    style="height:55%;" required="">
+                            </div>
+
+                            <div class="col-lg-3">
+                                <label for="first-name">Deployment Partner</label>
+                                <select type="text" class="form-control" id="EmployeeName" name="EmployeeName"
+                                    required="">
+                                    <option value="">Select Deployment Partner</option>
+
+                                    <option value="ADRIAN">ADRIAN</option>
+
+                                    <option value="BENS">BENS</option>
+
+                                    <option value="COM21">COM21</option>
+
+                                    <option value="ELRIS">ELRIS</option>
+
+                                    <option value="FIRESIDE">FIRESIDE</option>
+
+                                    <option value="MASABA">MASABA</option>
+
+                                    <option value="UNITEL">UNITEL</option>
 
                                 </select>
                             </div>
 
-                            <div class="col-lg-3" id="Segment">
-                                <label for="first-name">Segment</label>
-                                <input type="text" class="form-control" id="Segment" name="Segment" style="height: 55%;"
-                                    required readonly />
+                            <div class="col-lg-3" id="Location">
+                                <label for="first-name">Location</label><input type="text" class="form-control"
+                                    id="Location" name="Location" style="height: 55%;" required="">
                             </div>
 
-                            <script type="text/javascript">
-                                function getSegments(empname) {
-                                    $.ajax({
-                                        type: "POST",
-                                        url: "getSegments.asp",
-                                        data: {
-                                            empname: empname
-                                        },
-                                        success: function(data) {
-                                            $("#Segment").html(data);
-                                        },
-                                        error: function(data) {
-                                            $("#Segment").html("Failed " + data);
-                                        }
-                                    });
-                                }
-                            </script>
+                            <div class="col-lg-3">
+                                <label for="first-name">Engineer</label>
+                                <input type="text" class="form-control" id="Engineer" name="Engineer"
+                                    style="height:55%;" required="">
+                            </div>
+
                         </div>
 
                         <!-- Nav tabs -->
                         <ul class="nav nav-tabs" role="tablist">
                             <li class="nav-item">
-                                <a class="nav-link active" data-toggle="tab" href="#esdanalystassessment">ESD Analyst
+                                <a class="nav-link active" data-toggle="tab" href="#dpassessment">Deployment Partner
                                     Assessment</a>
                             </li>
 
@@ -271,84 +256,72 @@
 
                         <!-- Tab panes -->
                         <div class="tab-content">
-                            <div id="ESDassessment" class="container tab-pane active">
+                            <div id="dpassessment" class="container tab-pane active">
                                 <table class="table table-bordered table-condensed">
-                                    <tr>
-                                        <th colspan="2">SLA</th>
-                                    </tr>
 
-                                    <tr>
-                                        <td width="67%">Was SR assigned on time? Did the team marshal assign activity
-                                            within 2hr SLA<br></td>
+                                    <tbody>
+                                        <tr>
+                                            <th colspan="2">NPS</th>
+                                        </tr>
 
-                                        <td width="33%" colspan="2">Yes
-                                            <input name="Assign" type="radio" value="15" />
-                                            &nbsp No
-                                            <input name="Assign" type="radio" value="0" /></td>
+                                        <tr>
+                                            <td width="66%"><strong>Based on your the experience with the engineers who
+                                                    came to activate your Solution&nbsp; how likely are you to recommend
+                                                    Safaricom Business&nbsp; (SCALE 0-10)</strong></td>
+                                            <td width="34%" colspan="">
+                                                <select type="number" name="NPS" id="NPS" class="form-control">
+                                                    <option value="">Select Score</option>
+                                                    <option value="0">0</option>
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                    <option value="6">6</option>
+                                                    <option value="7">7</option>
+                                                    <option value="8">8</option>
+                                                    <option value="9">9</option>
+                                                    <option value="10">10</option>
+                                                </select>
+                                            </td>
+                                        </tr>
 
-                                    </tr>
-                                    <tr>
-                                        <td>Did the agent create an order within 2hrs of receiving customer request? and
-                                            if not were internal teams informed?</td>
-                                        <td colspan="2">Yes
-                                            <input name="OrderCreation" type="radio" value="30" />
-                                            &nbsp No
-                                            <input name="OrderCreation" type="radio" value="0" />
-                                            &nbsp Partly
-                                            <input name="OrderCreation" type="radio" value="15" />
-                                            &nbsp N/A
-                                            <input name="OrderCreation" type="radio" value="30" /></td>
-                                    </tr>
+                                        <tr>
+                                            <th colspan="2">Customer Feedback</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Customer Verbatim</td>
+                                            <td colspan="2"><textarea class="form-control" name="NPSComments" cols=""
+                                                    rows=""></textarea></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Kindly share with us any improvement opportunities to help us serve you
+                                                better. </td>
+                                            <td colspan="2"><textarea class="form-control" name="OpportunityAreas"
+                                                    cols="" rows=""></textarea></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Do you have any other feedback?</td>
+                                            <td colspan="2"><textarea class="form-control" name="Comments" cols=""
+                                                    rows=""></textarea></td>
+                                        </tr>
 
-                                    <tr>
-                                        <td>Was SR closed on time based on final activity on that SR? If the SR was
-                                            transferred, Last activity of the owner. Check service request log. Should
-                                            be transferred within 2 hours of the activity. <br> </td>
-                                        <td colspan="">Yes <input name="SRClose" type="radio" value="15" /> &nbsp No
-                                            <input name="SRClose" type="radio" value="0" /></td>
-                                    </tr>
-                                    <tr>
-                                        <th colspan="2"> Quality</th>
-                                    </tr>
+                                        <tr>
+                                            <th colspan="2">SR</th>
+                                        </tr>
 
-                                    <tr>
-                                        <td>KYC adherance , Quality and Accuracy of the Order</td>
-                                        <td colspan="">Yes
-                                            <input name="KYC" type="radio" value="30" />
-                                            &nbsp No
-                                            <input name="KYC" type="radio" value="0" />
-                                            &nbsp N/A
-                                            <input name="OrderCreation" type="radio" value="30" /></td>
-                                    </tr>
+                                        <tr>
+                                            <td>Where an escalation has been done by Assessor and SR created, quote SR
+                                                number</td>
+                                            <td colspan=""><textarea class="form-control" name="SR" cols=""
+                                                    rows=""></textarea></td>
+                                        </tr>
 
-                                    <tr>
-                                        <td>Marking quality ticket?</td>
-                                        <td colspan="">Yes <input name="Quality" type="radio" value="10" /> &nbsp No
-                                            <input name="Quality" type="radio" value="0" />
-                                            &nbsp N/A
-                                            <input name="OrderCreation" type="radio" value="10" /></td>
-                                    </tr>
+                                        <tr>
+                                            <td colspan="2"></td>
+                                        </tr>
 
-                                    <tr>
-                                        <td>Comments and Observations:</td>
-                                        <td colspan="2"><textarea class="form-control" name="Comments" cols=""
-                                                rows=""></textarea></td>
-                                    </tr>
-
-                                    <tr>
-                                        <td colspan="2"></td>
-                                    </tr>
-
-                                    <tr>
-                                        <td colspan="5">
-
-                                            <input name="btnSubmit" type="submit" value="Submit ESD Analyst Assessment"
-                                                class="btn btn-success"> <input name="Clear" type="reset" value="Clear"
-                                                class="btn btn-danger">
-
-                                        </td>
-                                    </tr>
-
+                                    </tbody>
                                 </table>
 
                             </div>
@@ -366,7 +339,7 @@
                     <div class="modal-content">
                         <div class="modal-header">
                             <h4 class="modal-title  text-center" style="color:green;">Success!</h4>
-                            <button class="close" data-dismiss="modal">&times;</button>
+                            <button class="close" data-dismiss="modal">×</button>
                         </div>
                         <div class="modal-body">
                             <p class="text-center"></p>
@@ -379,7 +352,7 @@
             </div><!-- /.modal -->
 
         </div>
-        </div>
+
     </section>
 
     <footer class="footer section section-sm">
@@ -397,16 +370,14 @@
                 <div class="col-lg-3">
                     <!-- About -->
                     <div class="">
-                        <p style="color: #fff;">&copy; SafaricomIntranet 2020 – All Right Reserved</p>
+                        <p style="color: #fff;">© SafaricomIntranet 2019 – All Right Reserved</p>
                     </div>
                 </div>
 
             </div>
         </div>
         <!-- Container End -->
-    </footer>
-
-    <!-- JAVASCRIPTS -->
+    </footer><!-- JAVASCRIPTS -->
     <script src="../../../plugins/jquery-ui/jquery-ui.min.js"></script>
     <script src="../../../plugins/tether/js/tether.min.js"></script>
     <script src="../../../plugins/raty/jquery.raty-fa.js"></script>
@@ -416,8 +387,6 @@
     <script src="../../../plugins/jquery-nice-select/js/jquery.nice-select.min.js"></script>
     <script src="../../../plugins/fancybox/jquery.fancybox.pack.js"></script>
     <script src="../../../plugins/smoothscroll/SmoothScroll.min.js"></script>
-
-    <!--#include file="insert.asp" -->
 
 </body>
 
