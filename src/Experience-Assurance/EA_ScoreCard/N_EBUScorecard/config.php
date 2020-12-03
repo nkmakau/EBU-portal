@@ -1,5 +1,5 @@
 <?php
-	require_once('../D_EBUCareScorecard/D_EBUCareScorecard/cond.php'); 
+	require_once('../N_EBUCareScorecard/cond.php'); 
 	
 	//Get CMIntranet userdata
 	$user =& JFactory::getUser();
