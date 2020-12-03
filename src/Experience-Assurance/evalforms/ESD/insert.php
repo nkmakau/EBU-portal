@@ -1,5 +1,6 @@
-<?
- 
+<?php
+ require_once('app/cond.php');
+
 if (@$_POST["btnSubmit"] == "Submit ESD Analyst Assessment") {
  
 $monthSelected = @$_POST["month"];
@@ -38,7 +39,7 @@ if ($monthSelected == "" || $yearSelected == "" || $SRDate == "" || $AssessmentD
  
 $checkCount = "select count(*) as assCount from ".Tbl_EsdAssessment2019." where EmployeeName = '".$EmployeeName."' and monthSelected = '".$monthSelected."'  and yearSelected = '".$yearSelected."'";
  
-set $rsCount = $econn.execute($checkCount);
+$rsCount = $econn.execute($checkCount);
  
 if ($rsCount.$eof || $rsCount.$bof) {
 	$assCount= 0;
@@ -103,13 +104,3 @@ $econn.execute($sqlInsert);
 	window.location.href="<?=$HTTP_esdPath?>";
 
 </script>
-
-<?
-}
- 
-}
- 
-}
- 
-}
-?>
